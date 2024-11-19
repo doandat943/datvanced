@@ -2,6 +2,7 @@ enable-magisk-update = true
 
 [Music]
 build-mode = "both"
+arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 
 
