@@ -1,10 +1,12 @@
+enable-magisk-update = true
+
 [Music]
+build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-excluded-patches = "'GmsCore support'"
+
 
 [YouTube]
+build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Change header'"
-excluded-patches = "'GmsCore support'"
 patcher-args = "-Oheader=premium*header "
-
